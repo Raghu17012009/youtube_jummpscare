@@ -2,7 +2,7 @@
 
 A Manifest V3 extension for Brave, Chrome, and other Chromium browsers. It displays a stylised jump-scare whenever a user opens YouTube.
 
-## Install in Brave
+## Install in Web Browser
 
 1. Open `brave://extensions`.
 2. Enable **Developer mode**.
