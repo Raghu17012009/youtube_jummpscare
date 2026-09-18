@@ -4,7 +4,7 @@ A Manifest V3 extension for Brave, Chrome, and other Chromium browsers. It displ
 
 ## Install in Web Browser
 
-1. Open `brave://extensions`.
+1. Open `extensions`.
 2. Enable **Developer mode**.
 3. Select **Load unpacked** and choose this folder.
 4. Open the extension popup to tune the delay, duration, sound, and volume.
