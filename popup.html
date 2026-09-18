@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shorts Scream</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <span class="logo" aria-hidden="true">!</span>
+        <div>
+          <h1>Shorts Scream</h1>
+          <p>Jump-scare YouTube Shorts.</p>
+        </div>
+      </header>
+
+      <label class="switch-row" for="enabled">
+        <span>Enable jump scares</span>
+        <input id="enabled" type="checkbox">
+        <span class="switch" aria-hidden="true"></span>
+      </label>
+
+      <label class="field" for="delay">
+        <span>Delay</span>
+        <output id="delay-output" for="delay"></output>
+        <input id="delay" type="range" min="0" max="5000" step="100">
+      </label>
+
+      <label class="field" for="duration">
+        <span>On-screen time</span>
+        <output id="duration-output" for="duration"></output>
+        <input id="duration" type="range" min="500" max="5000" step="100">
+      </label>
+
+      <label class="switch-row" for="sound">
+        <span>Play sound</span>
+        <input id="sound" type="checkbox">
+        <span class="switch" aria-hidden="true"></span>
+      </label>
+
+      <label class="field" for="volume">
+        <span>Volume</span>
+        <output id="volume-output" for="volume"></output>
+        <input id="volume" type="range" min="0" max="1" step="0.05">
+      </label>
+
+      <p class="hint">Press <kbd>Esc</kbd> or click Dismiss to close a scare early.</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

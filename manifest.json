@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Shorts Scream",
+  "version": "1.0.1",
+  "description": "A configurable jump-scare overlay for YouTube.",
+  "permissions": ["storage"],
+  "action": {
+    "default_title": "Shorts Scream",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*", "*://youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
